@@ -1,0 +1,31 @@
+main{
+    display:flex ;
+    font-family: 'Times New Roman', Times, serif;
+}
+#foto{
+    border-radius: 56%;
+    width: 100px;
+    height: 100px;
+    border-style: dotted ;
+}
+.part1{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    background-color: rgba(155, 232, 216);
+    justify-content: center;
+}
+.info{
+    display: flex;
+    justify-content: center;
+}
+.part2{
+    width: 40%;
+    height: 100%;
+    background-color: rgba(120, 193, 243);
+}
+.part3{
+    width: 40%;
+    height: 100%;
+    background-color: rgba(226, 246, 202);
+}
