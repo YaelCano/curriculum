@@ -2,30 +2,40 @@ main{
     display:flex ;
     font-family: 'Times New Roman', Times, serif;
 }
+
 #foto{
     border-radius: 56%;
-    width: 100px;
-    height: 100px;
-    border-style: dotted ;
+    width: 150px;
+    height: 150px;
+    border-style:  solid ;
+    border-width: 2px;
+    position: sticky;
+    
 }
+
 .part1{
-    width: 40%;
+    width: 50%;
     height: 100%;
     display: flex;
+    flex-direction: column;
     background-color: rgba(155, 232, 216);
-    justify-content: center;
-}
-.info{
-    display: flex;
-    justify-content: center;
+    align-items: bottom;
+    justify-content: bottom;
+    line-height: 0;
+
 }
 .part2{
     width: 40%;
     height: 100%;
+    display: flex;
+    flex-direction: column;
     background-color: rgba(120, 193, 243);
 }
 .part3{
     width: 40%;
     height: 100%;
-    background-color: rgba(226, 246, 202);
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(155, 232, 216);
+
 }
