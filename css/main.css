@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    background-color: #F6F1F1;
+}
+
+main {
+    display: flex;
+    background-color: #146C94;
+    margin: 0 auto;
+    padding: 10px;
+    min-height: 100vh;
+}
+
+.personal {
+    flex: 1;
+    padding: 20px;
+    background-color: #f1f1f1;
+}
+
+.primero {
+    display: flex;
+    align-items: center;
+    background-color: #19A7CE;
+    padding: 10px;
+}
+
+.titulo {
+    color: #fff;
+    font-size: 30px;
+    margin-left: 120px;
+}
+
+.foto {
+    background-image: url(../images/peniten.jpg);
+    border: 2px solid rgb(246, 241, 241);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.datos {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.skills {
+    flex: 1;
+    padding: 20px;
+    background-color: rgb(246, 241, 241);
+    margin-left: 20px;
+}
+
+#tskills {
+    background-color: #19A7CE;
+    padding: 20px;
+}
+
+#tskills h2 {
+    color: #fff;
+    font-size: 30px;
+}
+
+.contenido {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+#skill .listas {
+    margin-left: 20px;
+}
+
+#skill .listas > dl {
+    color: #19A7CE;
+    font-weight: bold;
+}
+
+#skill .listas > dt {
+    margin-left: 15px;
+}
+
+.profesional {
+    flex: 1;
+    padding: 20px;
+    background-color: #f1f1f1;
+    margin-left: 20px;
+}
+
+.profesional h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.profesional .listas > dl {
+    text-align: left;
+    font-size: 20px;
+    color: #19A7CE;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.profesional .listas > dt {
+    text-align: left;
+    margin-left: 25px;
+}
+
+.idiomas, .estudios, .experiencia {
+    background-color: #f7f7f7;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.idiomas h2, .estudios h2, .experiencia h2 {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 10px;
+    background-color: #19A7CE;
+    color: #fff;
+}
+
+.idiomas .listas, .estudios .listas, .experiencia .listas {
+    margin-left: 20px;
+}
+
+.idiomas .listas > dl, .estudios .listas > dl, .experiencia .listas > dl {
+    color: #19A7CE;
+    font-weight: bold;
+}
+
+.idiomas .listas > dt, .estudios .listas > dt, .experiencia .listas > dt {
+    margin-left: 15px;
+}
+
+body, main, section {
+    height: 100%;
+}
+
+html {
+    height: 100%;
+}
+section {
+    height:1000;
+}
+
