@@ -8,6 +8,8 @@ body {
     font-family: 'Times New Roman', Times, serif;
     line-height: 1.6;
     background-color: #F6F1F1;
+    width: 100%;
+    height: 100%;
 }
 
 main {
@@ -15,7 +17,7 @@ main {
     background-color: #146C94;
     margin: 0 auto;
     padding: 10px;
-    min-height: 150vh;
+    min-height: 120vh;
 }
 
 .personal {
@@ -41,12 +43,12 @@ main {
 }
 
 .foto {
-    background-image: url(../images/peniten.jpg);
+    background-image: url(../images/foto_perfil.jpeg);
     border: 2px solid rgb(246, 241, 241);
     background-size: cover;
     background-repeat: no-repeat;
     height: 150px;
-    width: 150px;
+    width: 125px;
     border-radius: 50%;
 }
 
@@ -82,7 +84,7 @@ main {
 }
 
 #skill .listas > dl {
-    color: #19A7CE;
+    color: black;
     font-weight: bold;
 }
 
