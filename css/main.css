@@ -15,7 +15,7 @@ main {
     background-color: #146C94;
     margin: 0 auto;
     padding: 10px;
-    min-height: 100vh;
+    min-height: 150vh;
 }
 
 .personal {
@@ -24,6 +24,9 @@ main {
     background-color: #f1f1f1;
 }
 
+.perfil:hover{
+    color: rgb(124, 115, 192);
+}
 .primero {
     display: flex;
     align-items: center;
